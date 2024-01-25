@@ -1,6 +1,6 @@
 import React from "react";
 import Facebook from "../images_site/facebook.png";
-import Github from "../images_site/github-mark-white.png";
+import Github from "../images_site/github.svg";
 import "./Footer.css";
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
       <div>
         <a
           href="https://www.facebook.com/"
-          className="footer_facebook"
+          className="facebook listicon"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -21,7 +21,7 @@ function Footer() {
 
         <a
           href="https://github.com/"
-          className="footer_Github"
+          className="github listicon"
           target="_blank"
           rel="noopener noreferrer"
         >

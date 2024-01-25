@@ -2,11 +2,12 @@
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  right: 0;
+  /* width: 100%; */
   background-color: aquamarine;
-  padding: 2px;
+  /* padding: 2px; */
   border-top: solid 1px green;
-  margin-top: 100%;
+  /* margin-top: 80%; */
 }
 
 .footer_p {
@@ -16,8 +17,15 @@
   align-items: center;
 }
 
-.footer_facebook .footer_Github {
-  position: fixed;
-  margin-top: 18px;
-  margin-left: 18px;
+.listicon {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+}
+
+.github {
+  padding-left: 95%;
+}
+.github .listicon {
+  text-align: center;
 }

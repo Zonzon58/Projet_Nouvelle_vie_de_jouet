@@ -13,8 +13,11 @@ function NavBar() {
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
       <div className="navbar_logo">Logo</div>
       <ul className="navbar_links">
-        <Link className="navbar_item" to="/dévelopement">
-          <p className="navbar_link">Dévelopement </p>
+        <Link className="navbar_item" to="/">
+          <p className="navbar_link">Acceuil </p>
+        </Link>
+        <Link className="navbar_item" to="/developpement">
+          <p className="navbar_link">Développement </p>
         </Link>
         <Link className="navbar_item" to="/jeux_de_société">
           <p className="navbar_link">Jeux de société </p>
