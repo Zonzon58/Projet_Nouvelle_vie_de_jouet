@@ -1,0 +1,23 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: aquamarine;
+  padding: 2px;
+  border-top: solid 1px green;
+  margin-top: 100%;
+}
+
+.footer_p {
+  vertical-align: text-top;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_facebook .footer_Github {
+  position: fixed;
+  margin-top: 18px;
+  margin-left: 18px;
+}
