@@ -4,11 +4,9 @@
 
 // Import the manager modules responsible for handling data operations on the tables
 const ItemManager = require("./models/ItemManager");
+const ClientManager = require("./models/ClientManager");
 
-const managers = [
-  ItemManager,
-  // Add other managers here
-];
+const managers = [ItemManager, ClientManager];
 
 // Create an empty object to hold data managers for different tables
 const tables = {};
