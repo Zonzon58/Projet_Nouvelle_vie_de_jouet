@@ -1,31 +1,30 @@
 .footer {
   position: fixed;
-  bottom: 0;
+  bottom: auto;
   left: 0;
   right: 0;
-  /* width: 100%; */
   background-color: aquamarine;
   /* padding: 2px; */
-  border-top: solid 1px green;
-  /* margin-top: 80%; */
+  background-color: #8edf79;
+  border-top: solid 1px;
 }
 
 .footer_p {
-  vertical-align: text-top;
+  vertical-align: middle;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.listicon {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
+.facebook_listicon {
+  margin-left: 25vw;
+  margin-top: 60px;
+  position: fixed;
+  vertical-align: middle;
 }
 
-.github {
-  padding-left: 95%;
-}
-.github .listicon {
-  text-align: center;
+.github_listicon {
+  display: flex;
+  margin-left: 70vw;
+  margin-bottom: 25px;
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from "../images_site/logo.png";
 
 import "./Navbar.css";
 
@@ -11,7 +12,9 @@ function NavBar() {
   };
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"} `}>
-      <div className="navbar_logo">Logo</div>
+      <div className="navbar_logo">
+        <img className="nav-logo" src={logo} alt="logo" />
+      </div>
       <ul className="navbar_links">
         <Link className="navbar_item" to="/">
           <p className="navbar_link">Acceuil </p>
@@ -29,13 +32,16 @@ function NavBar() {
           <p className="navbar_link">Bibliothèque </p>
         </Link>
         <Link className="navbar_item" to="/jeux_extérieur">
-          <p className="navbar_link">Jeux et jouets d'extérieur </p>
+          <p className="navbar_link">Jeux extérieur </p>
         </Link>
-        <Link className="navbar_item" to="/conexion">
-          <p className="navbar_link">Se connecter </p>
+        <Link className="navbar_item" to="/login">
+          <p className="navbar_link">Login </p>
         </Link>
         <Link className="navbar_item" to="/inscription">
           <p className="navbar_link">Inscription </p>
+        </Link>
+        <Link className="navbar_item" to="/contact">
+          <p className="navbar_link">Contact </p>
         </Link>
       </ul>
       <ul>
