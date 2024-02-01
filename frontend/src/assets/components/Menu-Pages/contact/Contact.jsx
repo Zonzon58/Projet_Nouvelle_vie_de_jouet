@@ -23,7 +23,7 @@ function Contact() {
 
     try {
       const response = await connexion.post(
-        `${import.meta.env.VITE_BACKEND_URL}/api/clients`,
+        `${import.meta.env.VITE_BACKEND_URL}/api/contact`,
         formData
       );
 
